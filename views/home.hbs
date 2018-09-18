@@ -5,11 +5,9 @@
     <title>My Express Website</title>
   </head>
   <body>
-    <h1>{{pageTitle}}</h1>
-    <h2>{{welcomeMsg}}</h2>
+    {{> header}}
+    <h2>{{upCase welcomeMsg}}</h2>
 
-  <footer>
-      <p>Copyright {{currentYear}}</p>
-  </footer>
+    {{> footer}}
   </body>
 </html>
